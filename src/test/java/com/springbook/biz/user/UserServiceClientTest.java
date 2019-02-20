@@ -18,6 +18,10 @@ public class UserServiceClientTest extends TestCase {
 		return new TestSuite(UserServiceClientTest.class);
 	}
 	public void testUser() {
+		
+	}
+	
+	private void doit() {
 		// 1. Spring 컨테이너를 구동한다.
 		AbstractApplicationContext container = new GenericXmlApplicationContext("applicationContext.xml");
 

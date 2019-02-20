@@ -17,6 +17,10 @@ public class BoardServiceClientTest extends TestCase {
 		return new TestSuite(BoardServiceClientTest.class);
 	}
 	public void testBoard() {
+		
+	}
+	
+	private void doit() {
 		// 1. Spring 컨테이너를 구동한다.
 		AbstractApplicationContext container = new GenericXmlApplicationContext("applicationContext.xml");
 
